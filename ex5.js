@@ -3,7 +3,7 @@ function run() {
   setTimeout(() => {
     setMessage("Ready!");
     addLine("Ready!");
-  }, 10);
+  }, 30);
 
   setTimeout(() => {
     setMessage("Almost there...");
@@ -15,3 +15,4 @@ function run() {
 }
 
 if (typeof module !== "undefined") module.exports = { run };
+
